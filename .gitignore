@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Models are too big for GitHub -> stored on Hugging Face Hub instead
+models/
+*.safetensors
+*.bin
+*.joblib
+
+# Data (download it with the notebook instead of committing it)
+data/
+
+# Editors / OS
+.vscode/
+.ipynb_checkpoints/
+.DS_Store

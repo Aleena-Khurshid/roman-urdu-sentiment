@@ -1,0 +1,10 @@
+# Serving + tests (runs on CPU). Training happens in Colab, see notebooks/.
+# Tip for Windows: install CPU-only torch first to save ~2 GB:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+fastapi
+uvicorn[standard]
+pydantic>=2
+transformers
+torch
+pytest
+httpx
